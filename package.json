@@ -1,0 +1,21 @@
+{
+  "name": "eventhub-batch-consumer",
+  "version": "1.0.0",
+  "description": "Node.js project to demonstrate reading from Azure Event Hub with controlled batch size",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "send": "node send-test-messages.js",
+    "diagnose": "node diagnose.js",
+    "check": "node check-or-create-hub.js"
+  },
+  "keywords": ["eventhub", "azure", "batch", "consumer"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@azure/event-hubs": "^5.11.5",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {}
+}
